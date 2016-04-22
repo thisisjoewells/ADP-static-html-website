@@ -1579,7 +1579,7 @@
 		-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 		border-bottom: dotted 1px;
-		color: #49bf9d;
+		color: #4fa0cd; /* was green default color - 49bf9d - jw changed 4/21/16 */
 		text-decoration: none;
 	}
 
@@ -1603,7 +1603,7 @@
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		color: #787878;
+		color: #4fa0cd; /* was gray - 787878 - jw changed 4/21/16*/ 
 		font-weight: 400;
 		line-height: 1em;
 		margin: 0 0 1em 0;
@@ -2087,8 +2087,8 @@
 			}
 
 			.image.avatar img {
-				border-radius: 100%;
-				width: 100%;
+				border-radius: 1%;/* was 100 - jw changed 4/21/16*/
+				width: 165px; /* was 100%, very small not sure how to best control image width - jw 4/21/16*/
 			}
 
 /* List */
@@ -2350,8 +2350,8 @@
 		input[type="reset"]:hover,
 		input[type="button"]:hover,
 		.button:hover {
-			border-color: #49bf9d;
-			color: #49bf9d !important;
+			border-color: #4fa0cd; /* was green -49bf9d - jw changed 4/21/16 */ 
+			color: #4fa0cd !important;  /* was green -49bf9d - jw changed 4/21/16 */ 
 		}
 
 		input[type="submit"]:active,
@@ -2463,7 +2463,7 @@
 /* Header */
 
 	#header {
-		background-color: #1f1815;
+		background-color: #000;/* was 1f1815 - jw changed 4/21/16 */
 		background-attachment: scroll,								fixed;
 		background-image: url("images/overlay.png"), url("../../images/bg.jpg");
 		background-position: top left,							top left;
@@ -2527,7 +2527,7 @@
 		}
 
 			#footer .copyright li {
-				border-left: solid 1px rgba(255, 255, 255, 0.25);
+				/*border-left: solid 1px rgba(255, 255, 255, 0.25); - - jw removed this border from footer items - jw 4/21/16*/
 				display: inline-block;
 				line-height: 1em;
 				margin-left: 0.75em;
